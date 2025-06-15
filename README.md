@@ -9,15 +9,7 @@ This project demonstrates a robust end-to-end approach to **model selection** fo
 
 ### 📁 Folder Structure
 
-├── loan_prediction.ipynb # Main notebook for model training, comparison & generalization
-├── model_results.csv # Output summary of all evaluated models
-├── testdata.csv # Input test data for model inference
-├── lime_explanation.html # HTML output from LIME for XAI transparency
-├── XAI.ipynb # Jupyter notebook to generate explanations using LIME & SHAP
-├── loan_data_set_Train.csv # Training data used for all models
-├── testmodel.ipynb # Model serialization, loading & prediction
-├── README.md # This documentation file
-└── requirements.txt # Required packages
+![image](https://github.com/user-attachments/assets/16229fcd-3c67-4470-9777-6e584d002be9)
 
 
 ---
