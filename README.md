@@ -71,12 +71,28 @@ Top 2 models:
 i have used few other model as well just to say "how we can use "
 
 ## Explainable AI (XAI) for Model Transparency
-To build trust in the model:
 
-LIME (Local Interpretable Model-agnostic Explanations) was used to explain individual predictions.
-The explanation is saved as lime_explanation.html and is interactive.
-Also includes basic SHAP visualizations in the XAI.ipynb.
-These tools help explain why the model made a certain decision for any loan applicant.
+Understanding **why** the model made a prediction is as important as the prediction itself—especially in sensitive domains like loan approval.
+
+To enhance interpretability, we used the following tools in the [`XAI.ipynb`](XAI.ipynb) notebook:
+
+### ✅ Tools Used
+
+- **LIME (Local Interpretable Model-agnostic Explanations)**  
+  LIME generates local, human-understandable explanations for individual predictions. It's especially useful to explain specific cases and visualize which features influenced the decision.
+
+- **SHAP (SHapley Additive exPlanations)**  
+  SHAP provides global and local explanations based on game theory, attributing importance scores to each feature. It gives both summary plots and per-instance breakdowns.
+
+### 🎯 Use Cases Covered
+
+- Interpretation of CatBoost predictions on test samples
+- Feature contribution visualizations (SHAP summary and force plots)
+- Visual explanation exported as HTML (`lime_explanation.html`)
+- Side-by-side comparison for multiple samples
+
+These tools help provide **transparency, fairness, and auditability** of predictions in real-world deployment scenarios.
+
 
 ### Setup Instructions
     Clone the repo
