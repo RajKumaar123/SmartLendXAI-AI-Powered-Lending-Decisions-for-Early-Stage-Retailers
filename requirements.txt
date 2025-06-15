@@ -1,0 +1,39 @@
+# ================================================
+# Requirements for SmartLendXAI Project
+# ================================================
+# This file lists all the required Python packages for the SmartLendXAI project.
+
+
+# Core Libraries for Data Handling
+pandas         # For structured data manipulation and analysis (DataFrames)
+numpy          # For numerical operations, linear algebra, arrays
+
+# Data Visualization Libraries
+matplotlib     # For basic plotting and charting
+seaborn        # For statistical data visualization (built on matplotlib)
+
+#provides tools for handling imbalanced datasets in machine learning, particularly in classification tasks where the distribution of classes is uneven
+imbalanced-learn==0.11.0 # For handling imbalanced datasets in machine learning (e.g., SMOTE, ADASYN)
+
+# Machine Learning Framework
+scikit-learn==1.3.2   # Core ML algorithms, preprocessing, model evaluation
+
+# Console Output Enhancement
+termcolor      # For printing colored messages in the console (e.g., model success)
+
+# Explainable AI (XAI) Tools
+shap           # SHAP values for model explainability (tree-based & linear models)
+lime           # LIME for local interpretability of black-box models
+eli5           # Model inspection and debugging (especially linear models and pipelines)
+
+# Utilities
+setuptools     # Helps in packaging Python projects and managing dependencies
+
+# Advanced Gradient Boosting Algorithms
+xgboost        # eXtreme Gradient Boosting – powerful, scalable boosting framework
+lightgbm       # Fast and efficient gradient boosting (by Microsoft)
+catboost       # Gradient boosting library that natively handles categorical features
+
+# Required for displaying LIME results in notebooks
+ipython       # Needed for IPython.core.display
+jupyter       # If using Jupyter Notebooks

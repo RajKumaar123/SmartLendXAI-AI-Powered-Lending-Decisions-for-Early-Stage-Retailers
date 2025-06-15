@@ -1,0 +1,14 @@
+Model_Name,Train_Accuracy,Test_Accuracy
+Random Forest Tree Classifier,1.0,0.8571
+Gaussian Naive Bayes,0.6395,0.6429
+Bernoulli Naive Bayes model,0.5988,0.5714
+Logistic Regression model,0.5407,0.9286
+Ridge Classifier CV,0.6337,0.6071
+K-Nearest Neighbors (KNN),1.0,0.8214
+Support Vector Classifier (SVC),0.7442,0.75
+Gradient Boosting Classifier model,1.0,0.8571
+XGBoost Classifier model,0.9942,0.8571
+LightGBM Classifier model,0.9767,0.8571
+CatBoost Classifier model,1.0,0.8929
+Linear Discriminant Analysis (LDA) model,0.6337,0.6071
+Quadratic Discriminant Analysis (QDA) model,0.5,0.0714
