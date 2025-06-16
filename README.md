@@ -80,6 +80,8 @@ To enhance interpretability, we used the following tools in the [`XAI.ipynb`](XA
 
 - **LIME (Local Interpretable Model-agnostic Explanations)**  
   LIME generates local, human-understandable explanations for individual predictions. It's especially useful to explain specific cases and visualize which features influenced the decision.
+  ![image](https://github.com/user-attachments/assets/e330f1b0-dc95-4331-be7c-dc1f23193e91)
+
 
 - **SHAP (SHapley Additive exPlanations)**  
   SHAP provides global and local explanations based on game theory, attributing importance scores to each feature. It gives both summary plots and per-instance breakdowns.
